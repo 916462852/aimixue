@@ -1,0 +1,93 @@
+header div>ul>li{
+	display: inline-block;
+	margin-left: 50px;
+	margin-top: 28px;
+	cursor: pointer;
+}
+header div>ul>li>a{
+	display: block;
+	height: 30px;
+}
+header div>ul>li:hover>a{
+	border-bottom: 2px solid #fc7861;
+	color: #fc7861;
+}
+.pic{
+	width: 100%;
+}
+.pic>img{
+	width: 100%;
+}
+.index{
+	height: 60px;
+    width: 910px;
+    text-align: right;
+    border-bottom: 1px solid #666666;
+}
+.index>li{
+	display: inline-block;
+	margin-top: 35px;
+}
+.new{
+	clear: both;
+	position: relative;
+	overflow:hidden;
+}
+.new>div{
+	width: 30px;
+	height: 30px;
+	border-bottom: 1px solid #666666;
+	border-left: 1px solid #666666;
+	position: absolute;
+	top: 10px;
+}
+.new>h3{
+	margin:5px 0  25px 30px;
+}
+.new>em{
+	font-style: normal;
+	display: inline-block;
+	width: 1px;
+	height: 25px;
+	background: #666666;
+	position: absolute;
+	top: 0;
+    left: 135px;
+}
+.content{
+	padding-left: 165px;
+}
+.content>div:nth-child(1){
+	text-align: center;
+	
+}
+.content1{
+	margin-top: 35px;
+}
+.content h3{
+	display: inline-block;
+	height: 35px;
+    border-bottom: 1px solid #666666;
+}
+.content p{
+	font-size: 13px;
+}
+.datu1{
+	width: 100%;
+	margin-top: 25px;
+}
+.datu1>img{
+	width: 100%;
+}
+.fenge{
+	margin-top: 45px;
+}
+footer{
+	height: 60px;
+	background: #666666;
+	text-align: center;
+	line-height: 60px;
+	color: #ffffff;
+	font-size: 14px;
+	margin-top: 40px;
+}
